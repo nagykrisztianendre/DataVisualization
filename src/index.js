@@ -1,10 +1,2 @@
-
-function component(){
-    const element = document.createElement('div');
-
-    element.innerHTML =  `Hello World!`;
-
-    return element;
-}
-
-document.body.appendChild(component());
+import './header-component';
+import '../css/main.scss'
