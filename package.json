@@ -1,0 +1,57 @@
+{
+  "name": "datavizualization",
+  "version": "1.0.0",
+  "description": "This is a datavizialtion project for the national evaluation for 8th graders in Romania.",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "postcss-loader": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
+    "@babel/plugin-syntax-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "1.0.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "^4.5.0",
+    "image-webpack-loader": "4.3.1",
+    "img-loader": "3.0.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "node-sass": "^4.12.0",
+    "path": "^0.12.7",
+    "sass": "^1.29.0",
+    "sass-loader": "7.1.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot",
+    "prod": "webpack -p --progress --mode production --env.prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagykrisztianendre/DataVisualization.git"
+  },
+  "keywords": [
+    "Datavizualization"
+  ],
+  "author": "Nagy Krisztián-Endre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagykrisztianendre/DataVisualization/issues"
+  },
+  "homepage": "https://github.com/nagykrisztianendre/DataVisualization#readme"
+}
