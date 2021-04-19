@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is a data visualization project for the national evaluation for 8th graders in Romania.",
   "main": "src/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "d3": "^6.6.2"
+  },
   "devDependencies": {
     "css-loader": "^5.2.1",
     "html-webpack-plugin": "^5.3.1",
@@ -16,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":  "webpack serve --mode development --env development",
+    "dev": "webpack serve --mode development --env development",
     "prod": "webpack -p --progress --mode production --env.prod",
     "build": "webpack --mode development",
     "start": "webpack serve --open 'chrome'"
