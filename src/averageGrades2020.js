@@ -1,4 +1,3 @@
-import '../DataQueries/getAverageOfHungarianStudents2020'
 import {getAverageOfHungarianStudents2020} from "../DataQueries/getAverageOfHungarianStudents2020";
 
 class Grades2020Chart extends HTMLElement {
@@ -16,9 +15,6 @@ class Grades2020Chart extends HTMLElement {
 
 
     render() {
-        const container = document.createElement('div');
-        container.classList.add('grouped-container');
-        this.append(container);
         this.innerHTML = `
 <div id="app">
         <div id="chart">
