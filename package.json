@@ -4,7 +4,8 @@
   "description": "This is a data visualization project for the national evaluation for 8th graders in Romania.",
   "main": "src/index.js",
   "dependencies": {
-    "d3": "^6.6.2"
+    "d3": "^6.6.2",
+    "string-to-color": "^2.2.2"
   },
   "devDependencies": {
     "css-loader": "^5.2.1",
