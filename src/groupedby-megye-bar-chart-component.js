@@ -34,8 +34,11 @@ class GroupedbyMegyeBarChartComponent extends HTMLElement {
 
             let yAxis = d3.axisRight(y).tickSizeOuter(0);
 
+            this.innerHTML+=`<div><h1>A magyar 8. diákok vizsgátlaga évekre lebontva, megyék szerint csoportosítva</h1></div>
+                        <div class="mchart"></div>`;
 
-            let svg = d3.select('body').append("svg")
+
+            let svg = d3.select('.mchart').append("svg")
                 .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
                 .classed("svg-content-responsive2", true)
                 .append("g");

@@ -16,6 +16,7 @@ class Grades2020Chart extends HTMLElement {
 
     render() {
         this.innerHTML = `
+<div><h1>A 2020 ban vizsgázott magyar 8.-osok vizsga átlagaik megyékre lebontva</h1></div>
 <div id="app">
         <div id="chart">
             <svg></svg>
