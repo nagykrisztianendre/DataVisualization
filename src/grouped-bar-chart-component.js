@@ -18,6 +18,9 @@ class GroupedBarChartComponent extends HTMLElement {
             let margin = {top: 20, right: 110, bottom: 30, left: 40},
                 width = 960 - margin.left - margin.right,
                 height = 500 - margin.top - margin.bottom;
+            this.innerHTML+=`<div><h1>A magyar 8. diákok vizsgátlaga megyékre lebontva, évek szerint csoportosítva</h1></div>
+<div class="mgchart"></div>`;
+
 
             let x0 = d3.scaleBand()
                 .rangeRound([0, width])
@@ -35,7 +38,7 @@ class GroupedBarChartComponent extends HTMLElement {
             let yAxis = d3.axisRight(y).tickSizeOuter(0);
 
 
-            let svg = d3.select('body').append("svg")
+            let svg = d3.select('.mgchart').append("svg")
                 .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
                 .classed("svg-content-responsive2", true)
                 .append("g");
