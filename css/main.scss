@@ -4,6 +4,10 @@
   font-family: "Garamond";
 }
 
+body{
+  padding: 5px;
+}
+
 #app{
   display: grid;
   grid-template-columns: 4fr 2fr;
@@ -61,4 +65,28 @@
   margin-right: 2.5vw;
   width: 95%;
   box-sizing: border-box;
+}
+
+.barMS {
+  fill: #5f89ad;
+}
+
+.axisMS {
+  font-size: 13px;
+}
+
+.axisMS path,
+.axisMS line {
+  fill: none;
+  display: none;
+}
+
+.labelMS {
+  font-size: 13px;
+}
+
+.msselect{
+  margin: 2vw;
+  width: 15vw;
+  height: 50px;
 }
