@@ -1,5 +1,5 @@
-export function countUrbanRural() {
-    return fetch('http://localhost:4200/countUrbanRural', {
+export function countUrbanRural(year) {
+    return fetch(`http://localhost:4200/countUrbanRural/${year}`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
