@@ -57,9 +57,6 @@ class MarosMegyeAtlagokComponent extends HTMLElement {
                     .attr("height", height + margin.top + margin.bottom)
                     .append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-                // .attr("preserveAspectRatio", "xMinYMin meet")
-                // .attr("viewBox", `0 0 ${width+margin.left+margin.right} ${height+margin.top+margin.bottom}`)
-                // .classed("svg-content-responsive", true);
 
                 let x = d3.scaleLinear()
                     .range([0, width])
