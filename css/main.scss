@@ -104,3 +104,22 @@ body{
   justify-content: space-between;
   padding: 1vw;
 }
+
+.bubblechartcomponent{
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.bubblechart-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500vh;
+}
+
+.bubbleheaders{
+  display: flex;
+  justify-content: space-evenly;
+}
