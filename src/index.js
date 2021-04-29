@@ -6,3 +6,5 @@ import '../src/grouped-bar-chart-component';
 import '../src/groupedby-megye-bar-chart-component';
 import '../src/marosMegyeAtlagok';
 import '../src/pieChartOfUrbanRural';
+import '../src/bubbleChartForGrades';
+import '../src/donutChartForBubbleChartData';
